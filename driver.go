@@ -7,7 +7,7 @@
 // The package has no exported API.
 // It registers a driver for the standard Go database/sql package.
 //
-//	import _ "code.google.com/p/gosqlite/sqlite3"
+//	import _ "github.com/jempe/sqlite3"
 //
 // (For an alternate, earlier API, see the code.google.com/p/gosqlite/sqlite package.)
 package sqlite
