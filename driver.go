@@ -477,7 +477,7 @@ func (r *rows) Next(dst []driver.Value) error {
 
 func (r *rows) Close() error {
 	if r.s == nil {
-		panic("database/sql/driver: misuse of sqlite driver: Close of closed Rows")
+		panic("database/sql/driver: misuse of sqlite driver: Close of closed Rows ")
 	}
 	r.s.rows = false
 	r.s = nil
